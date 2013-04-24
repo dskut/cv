@@ -1,0 +1,163 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{hyperref}
+\newcommand{\hreftext}[1]{\underline{\textit{#1}}}
+
+\name{Denis Kutukov}
+\address{\href{mailto:mail@dskut.ru}{\hreftext{mail@dskut.ru}} \\ \href{http://dskut.ru}{\hreftext{http://dskut.ru}} \\ Moscow, Russia}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bauman Moscow State Technical University} \hfill {\em 2005~--- 2011} \\
+Department: Informatics and management systems \\ 
+Section: Software engineering and information technologies \\
+Master of science \\
+Diploma thesis: <<Online news incremental clustering method>> \\
+Avg. grade: 4.6
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Yandex}{July 2011~--- present}{Software developer}{Moscow}
+Development of Yandex.News service, \href{http://news.yandex.ru}{\hreftext{http://news.yandex.ru}}
+\item Improving news documents annotation and clustering algorithms, both in quality and perfomance.
+
+\item Implementation of using additional data and various word dictionaries in algorithms, implementation of machine learning methods for precision and recall improvements.
+
+\item Evaluation metrics development for recognizing the inner quality of generated news stories.
+
+\item Improvements and refactoring in the whole service architecture design, legacy code maintenance.
+
+\item Development of ancillary scripts and tools for analysis of service functioning.
+
+\item Introduction of unit-testing practice in the team; coverage of the code of my personal responsibility; implementation of a continuous integration instance for automatic algorithms quality metrics monitoring.
+
+\item Technologies: С++, perl, python, XML/XSL/JSON/ProtoBuf, bash/awk, FreeBSD/Ubuntu, 
+Redis/BerkeleyDB.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Devoteam Teligent}{April 2011~--- June 2011}{Software engineer}{Moscow}
+
+\item Design and development of a distributed server application for audio and videoconferences, 
+using company's proprietary distributed platform Teligent P90. 
+
+\item Implementation of DTMF handlers and IVR voice messages playback and recording.
+
+\item Development of unit tests (CppUnit), integration tests (python) and a tool for stress testing (C++).
+
+\item Technologies: С++, python, bash, RHEL, SIP/SDP/RTP protocols.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{RAA SpetsTekhnika}{February 2010~--- February 2011}{Software engineer}{Moscow}
+
+\item Building software systems destined for theoretical study and practice training of military aircraft pilots.
+
+\item Design and implementation software units for training process management from the trainer's 
+workstation and trainee's actions evaluation.
+
+\item Integraion of logging subsystem into trainer's application.
+
+\item Maintenance and rework of application for theoretical study of students and centralized knowledge testing
+(a distributed application for use in a computer classroom).
+
+\item Technologies: C\# + managed C++, .NET 3.5, WPF, ADO, Linq, MS SQL Server.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{API}{September 2009~--- January 2010}{Software developer}{Moscow}
+\item Development of prototype of mass-media monitoring and analysis system in different regions 
+of Russian Federation.
+
+\item Implementation of interface components.
+
+\item Development of SQL stored procedures and database communication unit in the application.
+
+\item Technologies: C\#, .NET 3.5, WPF, MS SQL Server.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical skills}
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+\textbf{Programming languages:} \\
+C, C++ (STL, boost), python2.*, perl, bash, C\# (.NET), JavaSE, Erlang, Scala \\
+\textbf{DBMS:} \\
+MySQL, MS SQL Server, Redis \\
+\textbf{IDE:} \\
+QtCreator, Eclipse, MS Visual Studio \\
+\textbf{Tools:} \\
+svn, git, JIRA, Redmine, vim, gdb, valgrind, oprofile, make, cmake, tcpdump/wireshark \\
+\textbf{Operating systems:} \\
+UNIX (FreeBSD, Debian/Ubuntu, Arch Linux), Windows \\
+\textbf{Design patterns:} \\
+Go4 (Bridge/Factory/Observer), J2EE(DAO/CompositeEntity), MVC \\
+\textbf{Other:} \\
+Concurrent programming experience (shared memory, actor model); \\
+strong theoretical background (basic data structures, algorithms complexity, 
+machine learing, artificial intelligence); \\
+ability to write useful unit tests.
+%\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Languages}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+English & Advanced (fluent) \\
+German & C1 (strong level) \\
+Russian & native 
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Courses and certificates}
+\begin{itemize}
+\item Brainbench C++ Master (\href{http://www.brainbench.com/content/transcript/topicdetail.do?testid=12320176}{\hreftext{Public transcript}})
+
+\item Deutsch als Fremdsprache (TestDAF)
+
+\item MOOCs at \href{http://coursera.org}{\hreftext{Coursera}}: \href{http://www.coursera.org/user/i/e2d8625ac8ed6c7665b8ad68b990e47b}{\hreftext{my profile}} with current and finished courses, and also \href{http://ml-class.org}{\hreftext{Machine Learning}}, \href{http://ai-class.org}{\hreftext{Artificial Intelligence}}, \href{http://db-class.org}{\hreftext{Databases}} 
+
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Hobbies}
+Sports (boxing, fitness), literature.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
