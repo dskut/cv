@@ -12,7 +12,10 @@
 \newcommand{\hreftext}[1]{\underline{\textit{#1}}}
 
 \name{Denis Kutukov}
-\address{\href{mailto:mail@dskut.ru}{\hreftext{mail@dskut.ru}} \\ \href{http://dskut.ru}{\hreftext{http://dskut.ru}} \\ Moscow, Russia}
+\address{\href{mailto:mail@dskut.ru}{\hreftext{mail@dskut.ru}} \\ 
+%\href{http://dskut.ru}{\hreftext{http://dskut.ru}} \\ 
+Moscow, Russia
+}
 
 \begin{document}
 
@@ -38,7 +41,21 @@ Avg. grade: 4.6
 \begin{rSection}{Work Experience}
 
 \begin{rSubsection}{Yandex}{July 2011~--- present}{Software developer}{Moscow}
-Development of Yandex.News service, \href{http://news.yandex.ru}{\hreftext{http://news.yandex.ru}}
+
+April 2013~--- present: Development of Yandex.Mail service, \href{http://mail.yandex.com}{\hreftext{http://mail.yandex.com}}
+\item Working on infrastructure projects for service scalability, reliability and perfomance.
+\item Development of distributed backend service for retrieving, pre-processing and enhancing message content (i.e. adding meta-data, phishing check, parsing attachments).
+\item Development of distributed backend service for asynchronous batch message operations (i.e. labeling very large number of emails).
+\item Integrating Yandex.Mail with other Yandex-services.
+\item Integration of Javascript interpretator engine on backend.
+\item Collaboration with product managers, support specialists, systems administrators and QA engineers. \item Implementing backend-parts for new features in the service, fixing bugs, improving bottle-necks and tuning perfomance of backend.
+\item Interviewing candidates.
+\item Technologies: C++, python, Javascript, bash/awk, RHEL, Apache Zookeeper, PostgreSQL, Tracemonkey.
+
+Public speech on internals of asynchronous message operations service (in Russian): \\ \href{https://events.yandex.ru/lib/talks/2221/}{\hreftext{https://events.yandex.ru/lib/talks/2221/}}
+\\ 
+
+July 2011~--- April 2013: Development of Yandex.News service, \href{http://news.yandex.ru}{\hreftext{http://news.yandex.ru}}
 \item Improving news documents annotation and clustering algorithms, both in quality and perfomance.
 
 \item Implementation of using additional data and various word dictionaries in algorithms, implementation of machine learning methods for precision and recall improvements.
@@ -52,7 +69,7 @@ Development of Yandex.News service, \href{http://news.yandex.ru}{\hreftext{http:
 \item Introduction of unit-testing practice in the team; coverage of the code of my personal responsibility; implementation of a continuous integration instance for automatic algorithms quality metrics monitoring.
 
 \item Technologies: С++, perl, python, XML/XSL/JSON/ProtoBuf, bash/awk, FreeBSD/Ubuntu, 
-Redis/BerkeleyDB.
+LevelDB.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -109,21 +126,23 @@ of Russian Federation.
 
 %\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 \textbf{Programming languages:} \\
-C, C++ (STL, boost), python2.*, perl, bash, C\# (.NET), JavaSE, Erlang, Scala \\
+Strong: C, C++ (STL, boost, C++11), python2.*, perl, bash, Javascript, C\# (.NET) \\
+Basic: JavaSE, Erlang, Scala \\
 \textbf{DBMS:} \\
-MySQL, MS SQL Server, Redis \\
+PostgreSQL, Oracle, Apache Zookeeper, MS SQL Server, MongoDB, LevelDB \\
 \textbf{IDE:} \\
 QtCreator, Eclipse, MS Visual Studio \\
 \textbf{Tools:} \\
-svn, git, JIRA, Redmine, vim, gdb, valgrind, oprofile, make, cmake, tcpdump/wireshark \\
+svn, git, JIRA, Redmine, vim, gdb, valgrind, oprofile, gperftools, make, cmake, tcpdump/wireshark, awk, sed \\
 \textbf{Operating systems:} \\
-UNIX (FreeBSD, Debian/Ubuntu, Arch Linux), Windows \\
+UNIX (FreeBSD, Debian/Ubuntu, Arch Linux, RHEL), Windows \\
 \textbf{Design patterns:} \\
 Go4 (Bridge/Factory/Observer), J2EE(DAO/CompositeEntity), MVC \\
 \textbf{Other:} \\
 Concurrent programming experience (shared memory, actor model); \\
 strong theoretical background (basic data structures, algorithms complexity, 
 machine learing, artificial intelligence); \\
+experience in building distributed systems; \\
 ability to write useful unit tests.
 %\end{tabular}
 
@@ -147,7 +166,7 @@ Russian & native
 
 \item Deutsch als Fremdsprache (TestDAF)
 
-\item MOOCs at \href{http://coursera.org}{\hreftext{Coursera}}: \href{http://www.coursera.org/user/i/e2d8625ac8ed6c7665b8ad68b990e47b}{\hreftext{my profile}} with current and finished courses, and also \href{http://ml-class.org}{\hreftext{Machine Learning}}, \href{http://ai-class.org}{\hreftext{Artificial Intelligence}}, \href{http://db-class.org}{\hreftext{Databases}} 
+\item MOOCs at \href{http://coursera.org}{\hreftext{Coursera}}: \href{https://www.coursera.org/user/i/56a312ee9fc52bd72c3e7d5ab4399016}{\hreftext{my profile}} with current and finished courses
 
 \end{itemize}
 \end{rSection}
